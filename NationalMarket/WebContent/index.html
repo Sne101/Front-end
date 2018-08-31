@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>National Market-Register</title>
+</head>
+<body>
+	
+		<h1>National Market Auction</h1>
+		<img src="image/undraw.png" height="260px">
+		<!-- <hr width="50%"><br/> -->
+		<form>
+			Name <input type="text" name="name" required placeholder="Joe Pikins"><br />
+			<br /> Email <input type="email" name="email" required
+				placeholder="joe.pikins@nm.com"><br />
+			<br /> Contact Number <input type="text" required
+				placeholder="10 digit number" pattern="[6789]{1}[0-9]{9}"><br />
+			<br /> Username <input type="text" name="uname"
+				placeholder="joepikins_1"><br />
+			<br /> Password <input type="password" name="pass"
+				pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br />
+			<br /> Confirm Password <input type="password" name="pass"
+				pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br />
+			<br /> Role <input name="role" type="radio">Bidder <input
+				name="role" type="radio">Seller <input name="role"
+				type="radio">Both<br />
+			<br /> Intrests
+			<textarea placeholder="coins, boats, CD(optional)" rows="3" cols="15"></textarea>
+			<br />
+			<br /> <input type="checkbox">I agree to Terms and Conditions<br />
+			<br /> <input type="submit" value="Register">
+
+		</form>
+	
+</body>
+</html>
