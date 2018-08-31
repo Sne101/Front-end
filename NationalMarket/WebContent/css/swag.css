@@ -1,0 +1,72 @@
+#main{
+	width:75%;
+	height:600px;
+	margin:0px auto;
+	/* background-color: blue; */
+	
+}
+#bar{
+	/* background-color:blue; */
+	padding-top:30px;
+	
+}
+#logo{
+	cursor:pointer;
+	margin-left:85px;
+	font-size:25px;
+}
+#contact{
+	cursor:pointer;
+	text-decoration:underline;
+	margin-left:25px;
+}
+#about{
+	cursor:pointer;
+	text-decoration:underline;
+	margin-left:600px;
+}
+#submain{
+	display:flex;
+	flex-directon:column;
+	/* background-color:pink; */
+	justify-content:space-between;
+}
+body{
+	font-family:"Comfortaa";
+}
+.terms{
+	font-family:"Comfortaa";
+	font-size:12px;
+}
+#btn{
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	border-radius:6px;
+	box-shadow:2px 2px 5px grey;
+	padding:10px 125px 10px 10px;
+	
+}
+.fit{
+	font-size:14px;
+	
+	margin:15px 7px 7px 7px;
+	/* background-color:orange; */
+}
+.frm{
+	margin:30px 0px 0px 70px;
+	padding:5px 0px 0px 10px;
+	/* background-color:pink; */ 
+}
+input{
+	font-family:"Comfortaa";
+	border-radius:5px;
+	padding:7px 20px ;
+	/* background-color:powderblue;
+	 */
+	border:1px solid blue;
+}
+.image{
+	margin-top:40px;
+	/* background-color:blue; */
+}

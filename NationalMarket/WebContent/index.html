@@ -3,34 +3,47 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>National Market-Register</title>
+<link rel="stylesheet" href="css/swag.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-	
-		<h1>National Market Auction</h1>
-		<img src="image/undraw.png" height="260px">
-		<!-- <hr width="50%"><br/> -->
+	<div id="main">
+	<div id="bar">
+	<span id="logo">Auctiono</span>
+	<span id="about"><i class="fab fa-adn"></i>About</span>
+	<span id="contact"><i class="fas fa-phone-square"></i>Contact</span>
+	</div>
+			<!-- <hr width="50%"><br/> -->
+			<div id="submain">
+		<div class="frm">
+		<!--  <h1>National Market Auction</h1>-->
 		<form>
-			Name <input type="text" name="name" required placeholder="Joe Pikins"><br />
-			<br /> Email <input type="email" name="email" required
+			<p class="fit">Name</p> <input type="text" name="name" required placeholder="Joe Pikins"><br />
+		<p class="fit">Email</p> <input type="email" name="email" required
 				placeholder="joe.pikins@nm.com"><br />
-			<br /> Contact Number <input type="text" required
+			 <p class="fit">Contact Number</p> <input type="text" required
 				placeholder="10 digit number" pattern="[6789]{1}[0-9]{9}"><br />
-			<br /> Username <input type="text" name="uname"
-				placeholder="joepikins_1"><br />
-			<br /> Password <input type="password" name="pass"
+			<p class="fit"> Password</p> <input type="password" placeholder="********"  name="pass"
 				pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br />
-			<br /> Confirm Password <input type="password" name="pass"
+			 <p class="fit">Confirm Password</p> <input type="password"  placeholder="********" name="pass"
 				pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br />
-			<br /> Role <input name="role" type="radio">Bidder <input
+			 <p class="fit">Role</p><p class="fit"><input name="role" type="radio">Bidder 
+			 <input
 				name="role" type="radio">Seller <input name="role"
-				type="radio">Both<br />
-			<br /> Intrests
-			<textarea placeholder="coins, boats, CD(optional)" rows="3" cols="15"></textarea>
-			<br />
-			<br /> <input type="checkbox">I agree to Terms and Conditions<br />
-			<br /> <input type="submit" value="Register">
+				type="radio">Both<br /></p>
+			<p class="fit"><input type="checkbox"><span class="terms">I agree to Terms and Conditions</span><br /></p>
+			<input id="btn" type="submit" value="Register">
 
 		</form>
 	
+		</div>
+		<div class="image">
+	<img src="image/undraw.png" width="650px">
+	</div>
+		</div>
+	</div>
+
+
 </body>
 </html>
